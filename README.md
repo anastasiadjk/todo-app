@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Introduction
+A full-stack Todo-app, that allows you to create and manage your tasks. The front-end is implemented using React, the back-end is made with Node.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Setup
 
-## Available Scripts
+Make sure to follow all these steps below. Do not miss any steps or you won't be able to run this application.
 
-In the project directory, you can run:
+### Install MongoDB
 
-### `npm start`
+To run this project, you need to install the latest version of MongoDB Community Edition first.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  https://docs.mongodb.com/manual/installation/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Once you install MongoDB, make sure it's running.
 
-### `npm test`
+### Clone this repository
+Use the following command:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    $ git clone https://github.com/anastasiadjk/todo-app.git
+    
+### Install the Dependencies
 
-### `npm run build`
+Make sure you already have nodejs & npm installed in your system.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+From the project folder, install the dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    npm i  
+    
+### Start the app
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To start the react-app, from the project folder run:
 
-### `npm run eject`
+    npm start
+    
+  
+### Back-end setup 
+Install latest version of node on your machine.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    https://nodejs.org/en/
+    
+Go to the backend-todo folder and install all the dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    npm i
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Start the Server
+Run the following command from the backend-todo folder:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    node index.js
 
-## Learn More
+This will launch the Node server on port 3900
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
