@@ -1,5 +1,5 @@
 # Introduction
-A full-stack Todo-app, that allows you to create and manage your tasks. The front-end is implemented using React, the back-end is made with Node.js
+A Todo-app, that allows you to create and manage your tasks. The front-end is implemented using React, the back-end is made with Node.js
 
 ## Setup
 
